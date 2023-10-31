@@ -51,17 +51,16 @@ class WorkAge {
         if (age >= 16) {
             System.out.println("You are eligible to work.");
 
-        }else {
+        } else {
             System.out.println("You are not eligible to work.");
         }
 
         input.close();
-
-
     }
 
-    public class FindLargestNumber {
-        public static void main(String[] args) {
+
+
+        public static void vacation() {
             int[] numbers = {10,45,27,63,95,17,31,82,74};
             //this will be a var to store the largest number
             int largest = numbers[0];
@@ -75,17 +74,17 @@ class WorkAge {
             //print the so called largest number
             System.out.println("The largest number in the array is: " +largest);
         }
-    }
 
 
 
 
-}
+
+
 // Else if zadacha za ceni na vacancia
 
 
-public class Vacation {
-    public static void main(String[] args) {
+
+    public static void thirdCalc() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to the Vacation!");
@@ -113,6 +112,7 @@ public class Vacation {
         scanner.close();
     }
 }
+
 
 
 
